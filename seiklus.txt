@@ -1,0 +1,21 @@
+confirm("Ma olen valmis mängima!")
+var age = prompt("Kui vana sa oled?")
+if(age<=20){
+	console.log("Kasva suureks, aga noh, võid ikka mängida enda vastutusel.")	
+}else{
+	console.log("Luba mängimiseks antud!");
+}
+console.log("Kollid ja kassid mängivad koos, siis sa tuled ligidale ja sulle kollid ei meeldi ja palud neil lahkuda.");
+console.log("Kollid hakkavad vastu.");
+var userAnswer = prompt("Arvad, et sul veab?");
+if(userAnswer === "yes"){
+	console.log("Kollid ajavad su nutma!");
+}else{
+	console.log("Hea vastus, kollid jätavad su rahule.");
+}
+var feedback = prompt("Anna mulle tagasiside skaalal 1-10!");
+if (feedback >8){
+	console.log("See on alles algus!");	
+}else{
+	console.log("Sa ei meeldinud mulle nagunii!");
+}
